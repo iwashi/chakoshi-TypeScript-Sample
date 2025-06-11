@@ -1,0 +1,25 @@
+{
+  "name": "chakoshi-api-client",
+  "version": "1.0.0",
+  "description": "TypeScript client for chakoshi AI guardrail service",
+  "main": "dist/chakoshi-client.js",
+  "types": "dist/chakoshi-client.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "example": "node -r dotenv/config dist/example.js"
+  },
+  "keywords": [
+    "chakoshi",
+    "ai",
+    "guardrail",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.0.0"
+  }
+}
